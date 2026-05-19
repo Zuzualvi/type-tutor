@@ -1,0 +1,16 @@
+{
+  "id": "28-code-js-basic",
+  "title": "Code: JavaScript Basics",
+  "track": "code",
+  "order": 28,
+  "description": "Functions, conditionals, and small loops in JS. Code is harder than prose — fewer guessable patterns.",
+  "newKeys": [],
+  "prerequisiteLessonIds": ["13-brackets", "14-operators"],
+  "unlockGate": { "minWpm": 35, "minAccuracy": 96 },
+  "xpReward": 140,
+  "drills": [
+    { "type": "code", "content": "function add(a, b) {\n  return a + b;\n}" },
+    { "type": "code", "content": "const items = [1, 2, 3, 4];\nconst doubled = items.map((x) => x * 2);" },
+    { "type": "code", "content": "if (user.isAdmin) {\n  grantAccess(user);\n} else {\n  denyAccess(user);\n}" }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "02-home-row-words",
+  "title": "Home Row Words",
+  "track": "core",
+  "order": 2,
+  "description": "Real words using only home-row keys (plus G and H, the index-finger stretches).",
+  "newKeys": ["g","h"],
+  "prerequisiteLessonIds": ["01-home-row"],
+  "unlockGate": { "minWpm": 15, "minAccuracy": 95 },
+  "xpReward": 60,
+  "drills": [
+    { "type": "chars", "content": "fgf jhj fgf jhj fgf jhj fgf jhj" },
+    { "type": "words", "content": "ask dad lad sad add fall hall gas had has" },
+    { "type": "words", "content": "glad flask shall lash ash gash slash" }
+  ]
+}

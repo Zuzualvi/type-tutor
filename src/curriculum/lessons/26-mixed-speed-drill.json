@@ -1,0 +1,14 @@
+{
+  "id": "26-mixed-speed-drill",
+  "title": "Speed Drill — Common Words",
+  "track": "core",
+  "order": 26,
+  "description": "Push for higher WPM on familiar words. Comfort means it's time to nudge the ceiling.",
+  "newKeys": [],
+  "prerequisiteLessonIds": ["16-medium-words"],
+  "unlockGate": { "minWpm": 50, "minAccuracy": 94 },
+  "xpReward": 140,
+  "drills": [
+    { "type": "freq-words", "content": "the and that have with this from they will would there their what about which when more your into time some make like other than then them these many" }
+  ]
+}

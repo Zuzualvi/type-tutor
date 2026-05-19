@@ -1,0 +1,17 @@
+{
+  "id": "10-punctuation-advanced",
+  "title": "Advanced Punctuation: ' \" ; : ? !",
+  "track": "core",
+  "order": 10,
+  "description": "Apostrophes, quotes, colons, semicolons, question and exclamation marks. The Shift key gets a workout.",
+  "newKeys": ["'", "\"", ";", ":", "?", "!"],
+  "prerequisiteLessonIds": ["09-punctuation-basic"],
+  "unlockGate": { "minWpm": 28, "minAccuracy": 94 },
+  "xpReward": 90,
+  "drills": [
+    { "type": "chars", "content": "a;a a'a ;:; '\"' a;a a'a ;:; '\"'" },
+    { "type": "sentences", "content": "it's a test; it's a real test! is it really?" },
+    { "type": "sentences", "content": "She said: \"this is hard, but I'll keep at it.\"" },
+    { "type": "sentences", "content": "wait — what?! you mean it's done? yes! finally!" }
+  ]
+}

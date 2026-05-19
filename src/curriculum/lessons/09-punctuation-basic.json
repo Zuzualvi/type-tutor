@@ -1,0 +1,17 @@
+{
+  "id": "09-punctuation-basic",
+  "title": "Basic Punctuation: . ,",
+  "track": "core",
+  "order": 9,
+  "description": "Period (right ring finger) and comma (right middle finger). Foundational for any real sentence.",
+  "newKeys": [".", ","],
+  "prerequisiteLessonIds": ["08-capitals"],
+  "unlockGate": { "minWpm": 28, "minAccuracy": 95 },
+  "xpReward": 80,
+  "drills": [
+    { "type": "chars", "content": "k,k l.l k,k l.l k,k l.l k,k l.l" },
+    { "type": "sentences", "content": "yes, no, maybe, sometimes, often, never, always." },
+    { "type": "sentences", "content": "I went, I saw, I learned, I returned home." },
+    { "type": "sentences", "content": "First, second, third. Then, finally, the end." }
+  ]
+}

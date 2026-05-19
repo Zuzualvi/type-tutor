@@ -1,0 +1,16 @@
+{
+  "id": "27-mixed-accuracy-drill",
+  "title": "Accuracy Drill — Mixed Symbols",
+  "track": "core",
+  "order": 27,
+  "description": "Punishingly mixed punctuation and symbols. Accuracy gate is high — slow down to clear it.",
+  "newKeys": [],
+  "prerequisiteLessonIds": ["12-symbols-row", "13-brackets", "14-operators"],
+  "unlockGate": { "minWpm": 35, "minAccuracy": 98 },
+  "xpReward": 150,
+  "drills": [
+    { "type": "sentences", "content": "const arr = [1, 2, 3]; const obj = { a: 1, b: 2 }; arr.map(x => x * 2);" },
+    { "type": "sentences", "content": "He whispered, \"yes — but only if it costs less than $50.\" (She didn't reply.)" },
+    { "type": "sentences", "content": "url: https://api.example.com/v1/users?id=42&active=true (HTTP 200 OK)" }
+  ]
+}

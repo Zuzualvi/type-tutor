@@ -1,0 +1,14 @@
+{
+  "id": "bonus-top1000-words",
+  "title": "Bonus: Top 1000 English Words",
+  "track": "bonus",
+  "order": 102,
+  "description": "Random sample of the 1,000 most common English words. Replayable — every attempt is different.",
+  "newKeys": [],
+  "prerequisiteLessonIds": ["15-short-words"],
+  "unlockGate": { "minWpm": 40, "minAccuracy": 95 },
+  "xpReward": 120,
+  "drills": [
+    { "type": "freq-words", "content": "wordlist:english-top-1000:60" }
+  ]
+}

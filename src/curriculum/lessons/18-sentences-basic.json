@@ -1,0 +1,17 @@
+{
+  "id": "18-sentences-basic",
+  "title": "Basic Sentences",
+  "track": "core",
+  "order": 18,
+  "description": "Short, simple sentences with proper punctuation. Real prose rhythm.",
+  "newKeys": [],
+  "prerequisiteLessonIds": ["10-punctuation-advanced", "15-short-words"],
+  "unlockGate": { "minWpm": 35, "minAccuracy": 95 },
+  "xpReward": 100,
+  "drills": [
+    { "type": "sentences", "content": "The morning sun warmed the kitchen window." },
+    { "type": "sentences", "content": "She poured coffee and opened the newspaper." },
+    { "type": "sentences", "content": "A small dog barked at the closing door." },
+    { "type": "sentences", "content": "He smiled and walked to the corner store." }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "23-numbers-mixed",
+  "title": "Numbers Mixed With Text",
+  "track": "core",
+  "order": 23,
+  "description": "Numbers embedded in real sentences — addresses, dates, quantities, references.",
+  "newKeys": [],
+  "prerequisiteLessonIds": ["11-numbers-row", "18-sentences-basic"],
+  "unlockGate": { "minWpm": 35, "minAccuracy": 94 },
+  "xpReward": 110,
+  "drills": [
+    { "type": "sentences", "content": "The package weighs 3.7 kg and ships from warehouse 14 by January 20, 2025." },
+    { "type": "sentences", "content": "Order #82914 is split across 2 boxes: 6 items in box A, 11 items in box B." },
+    { "type": "sentences", "content": "He ran 5 km in 24:08, beating his previous best of 25:42 by 94 seconds." }
+  ]
+}

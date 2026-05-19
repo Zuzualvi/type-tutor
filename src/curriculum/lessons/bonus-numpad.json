@@ -1,0 +1,16 @@
+{
+  "id": "bonus-numpad",
+  "title": "Bonus: Number Pad",
+  "track": "bonus",
+  "order": 101,
+  "description": "Numeric pad drills — for anyone who works with spreadsheets, accounting, or data entry.",
+  "newKeys": [],
+  "prerequisiteLessonIds": [],
+  "unlockGate": { "minWpm": 25, "minAccuracy": 95 },
+  "xpReward": 80,
+  "drills": [
+    { "type": "numpad", "content": "456 456 456 789 789 789 123 123 123 000 000" },
+    { "type": "numpad", "content": "1234.56 7890.12 3456.78 9012.34 5678.90" },
+    { "type": "numpad", "content": "100 + 250 = 350    980 - 420 = 560    36 * 4 = 144" }
+  ]
+}

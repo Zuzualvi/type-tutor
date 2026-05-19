@@ -1,0 +1,17 @@
+{
+  "id": "13-brackets",
+  "title": "Brackets: [ ] { } ( ) < >",
+  "track": "core",
+  "order": 13,
+  "description": "Pinky territory. Essential for code, math, and anything with structure.",
+  "newKeys": ["[","]","{","}","<",">"],
+  "prerequisiteLessonIds": ["12-symbols-row"],
+  "unlockGate": { "minWpm": 22, "minAccuracy": 92 },
+  "xpReward": 90,
+  "drills": [
+    { "type": "chars", "content": "[ ] [ ] { } { } ( ) ( ) < > < >" },
+    { "type": "sentences", "content": "list = [1, 2, 3] and dict = {a: 1, b: 2}" },
+    { "type": "sentences", "content": "if (x > 0) { print(x); } else { return; }" },
+    { "type": "sentences", "content": "<html><body><p>hello, world</p></body></html>" }
+  ]
+}

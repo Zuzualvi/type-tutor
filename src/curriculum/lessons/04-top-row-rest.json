@@ -1,0 +1,17 @@
+{
+  "id": "04-top-row-rest",
+  "title": "Top Row: T, Y, Q, W, O, P",
+  "track": "core",
+  "order": 4,
+  "description": "The remaining top-row letters. Pinky stretches for Q and P — keep wrists relaxed.",
+  "newKeys": ["t","y","q","w","o","p"],
+  "prerequisiteLessonIds": ["03-top-row-eir"],
+  "unlockGate": { "minWpm": 20, "minAccuracy": 94 },
+  "xpReward": 70,
+  "drills": [
+    { "type": "chars", "content": "ftf jyj sws lol aqa p;p ftf jyj sws lol" },
+    { "type": "words", "content": "two type yard play pour quay quit quiet" },
+    { "type": "words", "content": "open opera party power query water proud" },
+    { "type": "words", "content": "people quietly request typed yellow output worry" }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "11-numbers-row",
+  "title": "Numbers Row: 1–0",
+  "track": "core",
+  "order": 11,
+  "description": "The number row is the longest reach. Don't look down — eyes on the screen.",
+  "newKeys": ["1","2","3","4","5","6","7","8","9","0"],
+  "prerequisiteLessonIds": ["10-punctuation-advanced"],
+  "unlockGate": { "minWpm": 25, "minAccuracy": 93 },
+  "xpReward": 90,
+  "drills": [
+    { "type": "chars", "content": "1q1 2w2 3e3 4r4 5t5 6y6 7u7 8i8 9o9 0p0" },
+    { "type": "chars", "content": "123 456 789 102 345 678 901 234 567 890" },
+    { "type": "words", "content": "year 2024 day 7 number 42 page 100 chapter 12" },
+    { "type": "sentences", "content": "in 1969 humans landed on the moon at 20 17 utc" }
+  ]
+}

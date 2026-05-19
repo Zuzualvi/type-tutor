@@ -1,0 +1,16 @@
+{
+  "id": "bonus-code-js-advanced",
+  "title": "Bonus: Advanced JavaScript",
+  "track": "code",
+  "order": 103,
+  "description": "Real-world-shaped JS snippets — async, destructuring, error handling.",
+  "newKeys": [],
+  "prerequisiteLessonIds": ["28-code-js-basic"],
+  "unlockGate": { "minWpm": 40, "minAccuracy": 96 },
+  "xpReward": 150,
+  "drills": [
+    { "type": "code", "content": "const { name, age, ...rest } = user;\nconsole.log(`hello, ${name}! age=${age}`);" },
+    { "type": "code", "content": "try {\n  const data = await api.fetch(`/items/${id}`);\n  return data.results.filter((x) => x.active);\n} catch (err) {\n  console.error('fetch failed:', err.message);\n  return [];\n}" },
+    { "type": "code", "content": "const reducer = (acc, x) => ({ ...acc, [x.id]: x });\nconst byId = items.reduce(reducer, {});" }
+  ]
+}

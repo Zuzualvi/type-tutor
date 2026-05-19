@@ -1,0 +1,15 @@
+{
+  "id": "30-mixed-challenge",
+  "title": "Final Mixed Challenge",
+  "track": "core",
+  "order": 30,
+  "description": "Everything together. Prose, numbers, punctuation, code. Pass this and you've earned it.",
+  "newKeys": [],
+  "prerequisiteLessonIds": ["22-paragraph-long", "27-mixed-accuracy-drill", "29-code-python-basic"],
+  "unlockGate": { "minWpm": 50, "minAccuracy": 97 },
+  "xpReward": 250,
+  "drills": [
+    { "type": "paragraph", "content": "On March 14, 2023, the team shipped v2.0 — a rewrite that took 9 months and 4,217 commits. Performance improved by 38%, the bundle shrank from 1.2 MB to 412 KB, and the bug count (per release) fell from 27 to 3. \"It's the cleanest codebase I've ever inherited,\" wrote one new engineer. The full changelog lives at /docs/changelog#v2-0 and weighs in at roughly 6,800 words." },
+    { "type": "code", "content": "async function fetchUsers(ids) {\n  const results = await Promise.all(ids.map((id) =>\n    fetch(`/api/users/${id}`).then((r) => r.json())\n  ));\n  return results.filter((u) => u.active);\n}" }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "08-capitals",
+  "title": "Capital Letters & Shift",
+  "track": "core",
+  "order": 8,
+  "description": "Always use the OPPOSITE Shift key. Right Shift for left-hand letters, left Shift for right-hand letters.",
+  "newKeys": ["Shift"],
+  "prerequisiteLessonIds": ["07-all-letters"],
+  "unlockGate": { "minWpm": 25, "minAccuracy": 94 },
+  "xpReward": 90,
+  "drills": [
+    { "type": "words", "content": "Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm" },
+    { "type": "words", "content": "Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz" },
+    { "type": "sentences", "content": "Alice Bob Charlie Diana Erik Fiona George Hannah" },
+    { "type": "sentences", "content": "New York Paris London Tokyo Madrid Berlin Rome" }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "01-home-row",
+  "title": "Home Row Basics",
+  "track": "core",
+  "order": 1,
+  "description": "Anchor your fingers on ASDF JKL;. Build muscle memory before you do anything else.",
+  "newKeys": ["a","s","d","f","j","k","l",";"],
+  "prerequisiteLessonIds": [],
+  "unlockGate": { "minWpm": 12, "minAccuracy": 95 },
+  "xpReward": 50,
+  "drills": [
+    { "type": "chars", "content": "asdf jkl; asdf jkl; asdf jkl; asdf jkl;" },
+    { "type": "chars", "content": "fff jjj ddd kkk sss lll aaa ;;;" },
+    { "type": "chars", "content": "fj fj fj dk dk dk sl sl sl a; a; a;" }
+  ]
+}

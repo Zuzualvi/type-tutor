@@ -1,0 +1,16 @@
+{
+  "id": "19-sentences-advanced",
+  "title": "Advanced Sentences",
+  "track": "core",
+  "order": 19,
+  "description": "Longer, more complex sentences with commas, semicolons, and clauses.",
+  "newKeys": [],
+  "prerequisiteLessonIds": ["18-sentences-basic"],
+  "unlockGate": { "minWpm": 38, "minAccuracy": 95 },
+  "xpReward": 110,
+  "drills": [
+    { "type": "sentences", "content": "Although the rain had stopped, the streets remained slick and the wind kept gusting hard." },
+    { "type": "sentences", "content": "She studied late into the night; by morning, the entire chapter was annotated in three colors." },
+    { "type": "sentences", "content": "If you want to write well, read often, revise twice, and trust your ear more than your rules." }
+  ]
+}

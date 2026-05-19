@@ -1,0 +1,16 @@
+{
+  "id": "16-medium-words",
+  "title": "Medium Words (5–7 letters)",
+  "track": "core",
+  "order": 16,
+  "description": "Mid-length common words. Build flow by reading ahead to the next word, not the next letter.",
+  "newKeys": [],
+  "prerequisiteLessonIds": ["15-short-words"],
+  "unlockGate": { "minWpm": 35, "minAccuracy": 95 },
+  "xpReward": 100,
+  "drills": [
+    { "type": "freq-words", "content": "about would there their which could other these people because between" },
+    { "type": "freq-words", "content": "before through called number little family system school during" },
+    { "type": "freq-words", "content": "another change without should against around really though enough always" }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "24-quotes-famous",
+  "title": "Famous Quotes",
+  "track": "core",
+  "order": 24,
+  "description": "Well-known quotes with mixed punctuation — perfect for natural typing rhythm.",
+  "newKeys": [],
+  "prerequisiteLessonIds": ["19-sentences-advanced"],
+  "unlockGate": { "minWpm": 40, "minAccuracy": 95 },
+  "xpReward": 120,
+  "drills": [
+    { "type": "sentences", "content": "\"The only way to do great work is to love what you do.\" — Steve Jobs" },
+    { "type": "sentences", "content": "\"Whether you think you can or you think you can't, you're right.\" — Henry Ford" },
+    { "type": "sentences", "content": "\"In the middle of difficulty lies opportunity.\" — Albert Einstein" }
+  ]
+}

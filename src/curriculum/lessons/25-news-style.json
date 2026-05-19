@@ -1,0 +1,14 @@
+{
+  "id": "25-news-style",
+  "title": "News-Style Writing",
+  "track": "core",
+  "order": 25,
+  "description": "Newspaper-style prose — proper nouns, dates, numbers, dependent clauses. Realistic everyday typing.",
+  "newKeys": [],
+  "prerequisiteLessonIds": ["23-numbers-mixed", "24-quotes-famous"],
+  "unlockGate": { "minWpm": 42, "minAccuracy": 95 },
+  "xpReward": 130,
+  "drills": [
+    { "type": "paragraph", "content": "City officials announced on Tuesday that the new transit line, which has been under construction since 2021, will begin limited service in October. Fares will start at $2.75, with discounts for students and seniors. Ridership is projected to reach 18,000 trips per day within the first year." }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "29-code-python-basic",
+  "title": "Code: Python Basics",
+  "track": "code",
+  "order": 29,
+  "description": "Python syntax — colons, indentation, underscores. The colon is your new best friend.",
+  "newKeys": [],
+  "prerequisiteLessonIds": ["28-code-js-basic"],
+  "unlockGate": { "minWpm": 35, "minAccuracy": 96 },
+  "xpReward": 140,
+  "drills": [
+    { "type": "code", "content": "def add(a, b):\n    return a + b" },
+    { "type": "code", "content": "items = [1, 2, 3, 4]\ndoubled = [x * 2 for x in items]" },
+    { "type": "code", "content": "if user.is_admin:\n    grant_access(user)\nelse:\n    deny_access(user)" }
+  ]
+}

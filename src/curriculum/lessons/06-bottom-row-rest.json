@@ -1,0 +1,17 @@
+{
+  "id": "06-bottom-row-rest",
+  "title": "Bottom Row: Z, X, B",
+  "track": "core",
+  "order": 6,
+  "description": "The hardest bottom-row reaches. Use the correct finger every time — no cheating with index.",
+  "newKeys": ["z","x","b"],
+  "prerequisiteLessonIds": ["05-bottom-row-vnm"],
+  "unlockGate": { "minWpm": 22, "minAccuracy": 94 },
+  "xpReward": 80,
+  "drills": [
+    { "type": "chars", "content": "aza sxs fbf aza sxs fbf aza sxs fbf" },
+    { "type": "words", "content": "box buzz fuzz lazy crazy boxer mixer fixer" },
+    { "type": "words", "content": "above below before begin bring break bridge" },
+    { "type": "words", "content": "behavior maximum exhibit quiz puzzle freeze" }
+  ]
+}

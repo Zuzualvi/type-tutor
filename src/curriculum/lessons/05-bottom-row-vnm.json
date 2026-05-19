@@ -1,0 +1,17 @@
+{
+  "id": "05-bottom-row-vnm",
+  "title": "Bottom Row: V, N, M, C",
+  "track": "core",
+  "order": 5,
+  "description": "Common bottom-row letters. Curl fingers down — don't move your wrist.",
+  "newKeys": ["v","n","m","c"],
+  "prerequisiteLessonIds": ["04-top-row-rest"],
+  "unlockGate": { "minWpm": 20, "minAccuracy": 94 },
+  "xpReward": 70,
+  "drills": [
+    { "type": "chars", "content": "fvf jnj jmj dcd fvf jnj jmj dcd" },
+    { "type": "words", "content": "van man can move come some name vine mine" },
+    { "type": "words", "content": "never enough common minute morning machine" },
+    { "type": "words", "content": "venue mention command remove convince income" }
+  ]
+}

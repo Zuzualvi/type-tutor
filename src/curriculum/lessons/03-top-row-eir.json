@@ -1,0 +1,17 @@
+{
+  "id": "03-top-row-eir",
+  "title": "Top Row: E, I, R, U",
+  "track": "core",
+  "order": 3,
+  "description": "The four most-used top-row letters. Reach up from home row and snap back.",
+  "newKeys": ["e","i","r","u"],
+  "prerequisiteLessonIds": ["02-home-row-words"],
+  "unlockGate": { "minWpm": 18, "minAccuracy": 95 },
+  "xpReward": 70,
+  "drills": [
+    { "type": "chars", "content": "ded kik ded kik frf juj frf juj" },
+    { "type": "words", "content": "red ride rise side hide ire fire dire" },
+    { "type": "words", "content": "use rule fuel duel jade ruse rake juke" },
+    { "type": "words", "content": "her here hair fairs lake fire ideas dare" }
+  ]
+}

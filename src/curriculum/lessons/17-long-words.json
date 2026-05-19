@@ -1,0 +1,16 @@
+{
+  "id": "17-long-words",
+  "title": "Long Words (8+ letters)",
+  "track": "core",
+  "order": 17,
+  "description": "Long words demand sustained accuracy. Slow down rather than retype.",
+  "newKeys": [],
+  "prerequisiteLessonIds": ["16-medium-words"],
+  "unlockGate": { "minWpm": 35, "minAccuracy": 95 },
+  "xpReward": 100,
+  "drills": [
+    { "type": "words", "content": "important together different national education government available community" },
+    { "type": "words", "content": "necessary information university individual experience particular interesting" },
+    { "type": "words", "content": "responsibility administration relationship environmental representative organization" }
+  ]
+}

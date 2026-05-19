@@ -1,0 +1,17 @@
+{
+  "id": "12-symbols-row",
+  "title": "Symbols Row: ! @ # $ % ^ & * ( )",
+  "track": "core",
+  "order": 12,
+  "description": "The Shift-number row. Useful for email addresses, prices, and code.",
+  "newKeys": ["!","@","#","$","%","^","&","*","(",")"],
+  "prerequisiteLessonIds": ["11-numbers-row"],
+  "unlockGate": { "minWpm": 22, "minAccuracy": 92 },
+  "xpReward": 90,
+  "drills": [
+    { "type": "chars", "content": "!@# $%^ &*( ) !@# $%^ &*( )" },
+    { "type": "sentences", "content": "email me at name@example.com — costs $19.99 (50% off!)" },
+    { "type": "sentences", "content": "use #hashtag & @handle to track topics on social media" },
+    { "type": "sentences", "content": "Total: $1,234.56 (incl. 8% tax) — paid via card #4242****" }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "20-paragraph-short",
+  "title": "Short Paragraph",
+  "track": "core",
+  "order": 20,
+  "description": "Your first full paragraph. Sustained focus matters more than speed here.",
+  "newKeys": [],
+  "prerequisiteLessonIds": ["19-sentences-advanced"],
+  "unlockGate": { "minWpm": 38, "minAccuracy": 95 },
+  "xpReward": 120,
+  "drills": [
+    { "type": "paragraph", "content": "Touch typing is a skill of layered habits. The hands learn home row first, then small reaches, then full words, and finally whole sentences typed without thinking. Most people give up at the discomfort stage, when their old hunt-and-peck method still feels faster. Push through that week and the trade pays back tenfold." }
+  ]
+}

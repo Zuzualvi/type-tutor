@@ -1,0 +1,17 @@
+{
+  "id": "07-all-letters",
+  "title": "All Letters Together",
+  "track": "core",
+  "order": 7,
+  "description": "Pangram drills — every letter at least once. Your hands should know where each one is now.",
+  "newKeys": [],
+  "prerequisiteLessonIds": ["06-bottom-row-rest"],
+  "unlockGate": { "minWpm": 25, "minAccuracy": 95 },
+  "xpReward": 80,
+  "drills": [
+    { "type": "sentences", "content": "the quick brown fox jumps over the lazy dog" },
+    { "type": "sentences", "content": "pack my box with five dozen liquor jugs" },
+    { "type": "sentences", "content": "how vexingly quick daft zebras jump" },
+    { "type": "sentences", "content": "sphinx of black quartz judge my vow" }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "14-operators",
+  "title": "Operators: + - * / = \\ | _",
+  "track": "core",
+  "order": 14,
+  "description": "Math and code operators. Most live on the right side — give your right pinky some love.",
+  "newKeys": ["+","-","*","/","=","\\","|","_"],
+  "prerequisiteLessonIds": ["13-brackets"],
+  "unlockGate": { "minWpm": 22, "minAccuracy": 92 },
+  "xpReward": 90,
+  "drills": [
+    { "type": "chars", "content": "+ - * / = + - * / = \\ | _ \\ | _" },
+    { "type": "sentences", "content": "x = a + b - c * d / e and y = a_b + c_d" },
+    { "type": "sentences", "content": "result = (alpha * 2) + (beta / 3) - gamma" },
+    { "type": "sentences", "content": "path = /usr/local/bin and pipe a | b | c" }
+  ]
+}

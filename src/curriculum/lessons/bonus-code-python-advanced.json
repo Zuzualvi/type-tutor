@@ -1,0 +1,16 @@
+{
+  "id": "bonus-code-python-advanced",
+  "title": "Bonus: Advanced Python",
+  "track": "code",
+  "order": 104,
+  "description": "Pythonic patterns — comprehensions, decorators, context managers.",
+  "newKeys": [],
+  "prerequisiteLessonIds": ["29-code-python-basic"],
+  "unlockGate": { "minWpm": 40, "minAccuracy": 96 },
+  "xpReward": 150,
+  "drills": [
+    { "type": "code", "content": "def log_calls(fn):\n    def wrapper(*args, **kwargs):\n        print(f'calling {fn.__name__}')\n        return fn(*args, **kwargs)\n    return wrapper" },
+    { "type": "code", "content": "with open('data.json') as f:\n    items = json.load(f)\n    active = [x for x in items if x.get('active')]" },
+    { "type": "code", "content": "by_id = {item['id']: item for item in items}\nresults = sorted(by_id.values(), key=lambda x: x['score'], reverse=True)" }
+  ]
+}

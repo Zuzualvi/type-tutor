@@ -1,0 +1,14 @@
+{
+  "id": "21-paragraph-medium",
+  "title": "Medium Paragraph",
+  "track": "core",
+  "order": 21,
+  "description": "A longer block of prose. Train endurance and recovery from small mistakes.",
+  "newKeys": [],
+  "prerequisiteLessonIds": ["20-paragraph-short"],
+  "unlockGate": { "minWpm": 40, "minAccuracy": 95 },
+  "xpReward": 130,
+  "drills": [
+    { "type": "paragraph", "content": "The library smelled of paper and old wood. Light slanted through tall windows and fell across long tables where students leaned over books, pencils tapping, pages turning at irregular intervals. A clock ticked above the front desk. Outside, leaves rattled along the path, and a delivery truck idled at the curb. None of it broke the quiet inside, which had its own weight and its own slow, careful rhythm." }
+  ]
+}

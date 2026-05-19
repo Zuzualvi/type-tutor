@@ -1,0 +1,14 @@
+{
+  "id": "22-paragraph-long",
+  "title": "Long Paragraph",
+  "track": "core",
+  "order": 22,
+  "description": "A sustained essay-style passage. Pace yourself — accuracy across distance is the real test.",
+  "newKeys": [],
+  "prerequisiteLessonIds": ["21-paragraph-medium"],
+  "unlockGate": { "minWpm": 42, "minAccuracy": 95 },
+  "xpReward": 150,
+  "drills": [
+    { "type": "paragraph", "content": "Skill is rarely the dramatic thing people imagine. It is more often the quiet accumulation of unremarkable practice — the same scale played a thousand times, the same line of code rewritten until it reads cleanly, the same paragraph drafted, cut, and drafted again. Watch a craftsman at work and the impressive part is not the speed; it is the absence of wasted motion. Each step is deliberate, but none of them are slow. The hands have already learned the path. The mind is free to plan the next move while the present one finishes itself. That is the real reward of practice: not that the work becomes easier, but that more of your attention becomes available for the parts that still demand it." }
+  ]
+}

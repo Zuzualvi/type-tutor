@@ -1,0 +1,16 @@
+{
+  "id": "15-short-words",
+  "title": "Short Common Words",
+  "track": "core",
+  "order": 15,
+  "description": "The 50 most-typed English words. These should feel automatic — chunked rhythm, not letter by letter.",
+  "newKeys": [],
+  "prerequisiteLessonIds": ["07-all-letters"],
+  "unlockGate": { "minWpm": 30, "minAccuracy": 95 },
+  "xpReward": 90,
+  "drills": [
+    { "type": "freq-words", "content": "the of and to a in is it you that he was for on are with as i his they" },
+    { "type": "freq-words", "content": "be at one have this from or had by hot but some what there we can out" },
+    { "type": "freq-words", "content": "other were all your when up use word how said an each she which do" }
+  ]
+}
