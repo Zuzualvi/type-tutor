@@ -1,8 +1,6 @@
 // Personal Supabase project credentials.
-// Paste the Project URL and anon public key from:
-//   Supabase Dashboard -> Project Settings -> API
 // The anon key is safe to commit; row-level security protects the data.
 window.APP_CONFIG = {
-  supabaseUrl: 'PASTE_YOUR_SUPABASE_PROJECT_URL_HERE',
-  supabaseAnonKey: 'PASTE_YOUR_SUPABASE_ANON_PUBLIC_KEY_HERE',
+  supabaseUrl: 'https://bgeunnbhitsxrffactgy.supabase.co',
+  supabaseAnonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJnZXVubmJoaXRzeHJmZmFjdGd5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzkxNDk4NDgsImV4cCI6MjA5NDcyNTg0OH0.ct75oFYPHdM3PvlB5YlCJZj3d7ID_BgIOFb1p4_0aAM',
 };
